@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#navBar{
+    background-color: rgba(255, 255, 255, 0.766);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 40px;
+}
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.score-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 18%;
+    min-width: 200px;
+    margin: 10px;
+    text-align: center;
+    height: 15%;
+}
+
+.score-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.score {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.status {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mild {
+    color: #f0a500;
+}
+
+.moderate {
+    color: #ff6600;
+}
+
+.update-btn, .start-btn, .book-now-btn {
+    background-color: #6c63ff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.update-btn:hover, .start-btn:hover, .book-now-btn:hover {
+    background-color: #5a52e8;
+}
+
+.last-update {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.therapy-recommendation {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.therapy-recommendation h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.therapy-recommendation p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
